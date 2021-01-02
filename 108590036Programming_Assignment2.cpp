@@ -79,7 +79,7 @@ class matrix{
     }
     void printEigenVector(){
       cout << name << " EigenVector is " << endl;
-      cout << "Eigenvalue is " << findEigenvalue << endl; 
+      cout << "Eigenvalue is " << this->findEigenvalue() << endl; 
       vector <double> r=this->findEigenVector();
       for(int i=0;i<r.size();i++){
         if(r[i] == -0){
