@@ -17,7 +17,5 @@ int main(array<System::String^>^ args)
 	do {
 		std::cin >> guess;
 	} while (!Guess(guess));
-	int app;
-	app = 8000;
 	return 0;
 }
